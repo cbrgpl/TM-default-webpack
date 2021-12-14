@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@icons/*": [
+        "src/assets/icons/*"
+      ],
+      "@images/*": [
+        "src/assets/images/*"
+      ],
+      "@enums": [
+        "src/enums/*",
+      ],
+      "@js": [
+        "src/js/*"
+      ],
+      "@classes": [
+        "src/js/helpers/classes/*"
+      ],
+      "@utils": [
+        "src/js/helpers/utils/*"
+      ],
+      "@service": [
+        "src/js/service"
+      ],
+      "@plugins": [
+        "src/js/plugins/*"
+      ],
+      "@scss": [
+        "src/scss/*"
+      ],
+      "@templates": [
+        "src/templates/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

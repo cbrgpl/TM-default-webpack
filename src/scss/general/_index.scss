@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  &::selection {
+    background: $red;
+  }
+}
+
+html {
+  background: $white;
+  color: $black;
+  font-size: $browser-context;
+  font-family: $font-family;
+}
+
+input,
+textarea {
+  font-family: $font-family;
+}
+
+img {
+  user-select: none;
+}
